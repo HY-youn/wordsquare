@@ -1,0 +1,651 @@
+body .wrapper {
+  width: 100%;
+}
+
+header {
+  position: relative;
+}
+header .ws-swiper-background{
+  position: absolute;
+  width: 100%;
+  height: 47.3em;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+header .container {
+  height: 47.3rem;
+}
+
+nav {
+  margin: 0 auto;
+  height: 17.5rem;
+  
+}
+
+nav .container {
+  position: relative;
+}
+
+nav .container .nav-top {
+  width: 80%;
+  margin: 0 auto;
+}
+
+nav .nav-brand img {
+  top: 3rem;
+  vertical-align: top;
+  position: absolute;
+}
+
+nav .nav-panel {
+  height: 12.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+  gap: 0 4rem;
+}
+
+nav .nav-panel .nav-search {
+  position: relative;
+  width: 31.3rem;
+  height: 4rem;
+  border-radius: 2.5rem;
+  background-color: transparent;
+  color: #fff;
+  display: flex;
+}
+
+nav .nav-panel .nav-search .nav-search-bar {
+  width: 31.3rem;
+  height: 4rem;
+  border: 0.2rem solid #fff;
+  border-radius: 2.5rem;
+  background-color: transparent;
+  text-indent: 2rem;
+  font-size: 1.6rem;
+  outline: none;
+  color: #fff;
+}
+
+nav .nav-panel .nav-search input::placeholder {
+  color: #fff;
+}
+
+nav .nav-panel .nav-search input::-webkit-input-placeholder {
+  color: #fff;
+}
+
+nav .nav-panel .nav-search input:-ms-input-placeholder {
+  color: #fff;
+}
+
+nav .nav-panel .nav-search .nav-search-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 4rem;
+  height: 4rem;
+  background-image: url(/img/icon_search_w.png);
+  background-position: center center;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  cursor: pointer;
+}
+
+nav .nav-panel .nav-userinfo ul {
+  display: flex;
+  gap: 0 4rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+nav .nav-panel .nav-userinfo ul li a {
+  display: block;
+  font-size: 1.6rem;
+  line-height: 4rem;
+  margin-bottom: 0.5rem;
+}
+
+nav .nav-navbar {
+  height: 5rem;
+  background: rgba(0,0,0,0.15);
+  position: relative;
+}
+
+nav .nav-navbar ul .list-group-item {
+  line-height: 5rem;
+  width: 17rem;
+}
+
+nav .nav-navbar ul li a {
+  display: block;
+  font-weight: bold;
+  font-size: 2.2rem;
+  color: #fff;
+}
+
+nav .nav-navbar-mid {
+  width: 80%;
+  margin: 0 auto;
+}
+
+nav .nav-navbar .nav-navbar-mid ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav .nav-navbar-btm {
+  background-color: rgba(255, 255, 255, 0.9);
+  opacity: 1;
+  z-index: 12;
+}
+
+nav .nav-navbar-btm-bg {
+  width: 80%;
+  margin: 0 auto;
+}
+
+nav .nav-navbar-depth1menu {
+  position: relative;
+  overflow: hidden;
+  height: 0;
+  z-index: 10;
+  transition: all 0.3s ease-in-out;
+}
+
+nav .nav-navbar-depth1menu .list-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+nav .nav-navbar-depth1menu .list-group .list-group-item1 {
+  line-height: 4.2rem;
+  width: 17rem;
+}
+
+nav .nav-navbar-depth1menu .list-group .list-group-item1 .nav-navbar-depth2menu {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+}
+
+nav .nav-navbar-depth1menu ul .list-group-item1 ul li a {
+  display: block;
+  font-size: 2rem;
+  color: #000;
+}
+
+main {
+  border-bottom: 1px solid #000;
+  margin-bottom: 2rem;
+}
+
+main .sec-title1 h1 {
+  margin-top: 2rem;
+  font-size: 2.5rem;
+}
+
+main .sec-title1 hr {
+  margin-bottom: 5rem;
+}
+
+main .container {
+  width: 80%;
+  margin: 0 auto 5rem;
+}
+
+section.sec-1 .video-grid {
+  display: grid;
+  height: 60rem;
+  grid-template-rows: repeat(2, auto);
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 5rem;
+  row-gap: 2.5rem;
+  column-gap: 1rem;
+}
+.ws-video-caption-box {
+
+}
+
+.ws-video-caption-box .ws-video-grid-title h3{
+  font-size: 1.8rem;
+}
+.ws-video-caption-box .ws-video-grid-content p{
+  font-size: 1.4rem;
+}
+
+section.sec-1 .grid-items1 {
+  display: block;
+  background-image: url(/img/mqdefault.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+}
+section.sec-1 .grid-items1 .ws-video-caption-box
+{
+  position: absolute;
+  bottom: -2.4rem;
+  left: 0;
+}
+
+section.sec-1 .grid-items2 {
+  background-image: url(/img/mqdefault\ \(1\).jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  display: block;
+}
+section.sec-1 .grid-items2 .ws-video-caption-box
+{
+  position: absolute;
+  bottom: -2.4rem;
+  left: 0;
+}
+
+
+section.sec-1 .grid-items3 {
+  background-image: url(/img/mqdefault\ \(2\).jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  position: relative;
+}
+section.sec-1 .grid-items3 .ws-video-caption-box
+{
+  position: absolute;
+  bottom: -2.4rem;
+  left: 0;
+}
+
+section.sec-1 .grid-items4 {
+  background-image: url(/img/mqdefault\ \(3\).jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  position: relative;
+}
+section.sec-1 .grid-items4 .ws-video-caption-box
+{
+  position: absolute;
+  bottom: -2.4rem;
+  left: 0;
+}
+
+section.sec-1 .grid-items5 {
+  background-image: url(/img/mqdefault\ \(4\).jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  position: relative;
+}
+section.sec-1 .grid-items5 .ws-video-caption-box
+{
+  position: absolute;
+  bottom: -2.4rem;
+  left: 0;
+}
+
+
+section.sec-1 .grid-items6 {
+  background-image: url(/img/mqdefault\ \(5\).jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  position: relative;
+}
+section.sec-1 .grid-items6 .ws-video-caption-box
+{
+  position: absolute;
+  bottom: -2.4rem;
+    left: 0;
+}
+
+
+section.sec-2 .video-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  height: 20rem;
+  column-gap: 1rem;
+  margin-bottom: 10rem;
+}
+
+section.sec-2 .grid-items1 {
+  background-image: url(/img/mqdefault\ \(14\).jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  position: relative;
+}
+section.sec-2 .ws-video-caption-box
+{
+  position: absolute;
+  bottom: -8rem;
+  left: 0;
+}
+section.sec-2 .grid-items2 {
+  background-image: url(/img/mqdefault\ \(7\).jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  position: relative;
+}
+section.sec-2 .ws-video-caption-box
+{
+  position: absolute;
+  bottom: -8rem;
+  left: 0;
+}
+section.sec-2 .grid-items3 {
+  background-image: url(/img/mqdefault\ \(8\).jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  position: relative;
+}
+section.sec-2 .ws-video-caption-box
+{
+  position: absolute;
+  bottom: -8rem;
+  left: 0;
+}
+section.sec-2 .grid-items4 {
+  background-image: url(/img/mqdefault\ \(9\).jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  position: relative;
+}
+section.sec-2 .ws-video-caption-box
+{
+  position: absolute;
+  bottom: -8rem;
+  left: 0;
+}
+section.sec-3 .video-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 20rem;
+  column-gap: 1rem;
+  margin-bottom: 15rem;
+}
+section.sec-3 .ws-vidio-caption-box{
+}
+section.sec-3 .grid-items1 {
+  background-image: url(/img/mqdefault\ \(12\).jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  position: relative;
+}
+section.sec-3 .grid-items1 .ws-video-caption-box
+{
+  position: absolute;
+  bottom: -9rem;
+  left: 0;
+}
+
+section.sec-3 .grid-items2 {
+  background-image: url(/img/mqdefault\ \(10\).jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  position: relative;
+}
+section.sec-3 .grid-items2 .ws-video-caption-box
+{
+  position: absolute;
+  bottom: -9rem;
+  left: 0;
+}
+
+section.sec-3 .grid-items3 {
+  background-image: url(/img/mqdefault\ \(11\).jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  position: relative;
+}
+section.sec-3 .grid-items3 .ws-video-caption-box
+{
+  position: absolute;
+  bottom: -9rem;
+  left: 0;
+}
+
+section.sec-4 .sec-title1 hr {
+  margin-bottom: 1rem;
+}
+
+section.sec-4 .icon-grid {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  column-gap: 1rem;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+}
+
+section.sec-4 .icon-grid .grid-item img {
+  background-color: #eee;
+  border-radius: 1rem;
+}
+
+section.sec-4 .icon-grid .grid-item span {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+section.sec-4 .test-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 4rem;
+  justify-content: space-between;
+}
+
+section.sec-4 .test-grid .grid-item {
+  border-radius: 1rem;
+  box-shadow: 0px 0px 10px rgba(16, 52, 0, 0.3);
+  display: flex;
+  flex-direction: row;
+}
+
+section.sec-4 .test-grid .grid-item:hover {
+  cursor:pointer;
+}
+
+.on {
+  color: #00ae82;
+  font-weight: bold;
+  background-color: #00ae82;
+  font-size: 3.2rem;
+}
+
+section.sec-4 .test-grid .grid-item .test-content {
+  display: flex;
+  flex: 1 1 auto;
+}
+
+section.sec-4 .test-grid .grid-item .test-content-text {
+  flex-grow: 2;
+}
+
+section.sec-4 .test-grid .grid-item .test-content-img {
+  text-align: center;
+  flex-grow: 1;
+}
+
+section.sec-4 .test-grid .grid-item .test-content-img-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+
+section.sec-4 .test-grid .grid-item .test-content-text {
+  display: flex;
+  height: 12rem;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 1.2rem;
+  gap: 2rem;
+  color: #aaa;
+}
+
+section.sec-4 .test-grid .grid-item .test-content {
+  position: relative;
+}
+
+section.sec-4 .test-grid .grid-item .test-content p {
+  color:#000;
+  font-size: 2rem;
+}
+
+section.sec-4 .test-grid .grid-item .test-content p + p {
+  font-size: 1.2rem;
+}
+section.sec-4 .test-grid .grid-item .test-content img{
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
+  display: block;
+  
+}
+section.sec-4 .test-grid .grid-item .test-content button {
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+  border: none;
+  background-color: #000;
+  overflow: hidden;
+  border-radius: 1rem;
+}
+.btnon{
+  color:#00ae82;
+  background-color: #00ae82;
+}
+
+section.sec-4 .test-grid .grid-item .test-content button a {
+  color: #fff;
+  display: block;
+  padding: 0 2rem;
+}
+
+footer .container {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+
+footer .info ul {
+  display: flex;
+  gap: 2rem;
+}
+
+footer .info ul li:first-child a {
+  color: #00ae82;
+  font-weight: bold;
+}
+
+footer .info ul li a {
+  display: block;
+  color: #000;
+  font-size: 1.4rem;
+}
+
+footer .sns_logo {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+footer .sns_logo ul {
+  display: flex;
+  gap: 1.2rem;
+}
+
+footer .logo1 {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background: url(../img/btm_sns.png) 0 0;
+}
+
+footer .logo2 {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background: url(../img/btm_sns.png) -72px 0;
+}
+
+footer .logo3 {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background: url(../img/btm_sns.png) -144px 0;
+}
+
+footer .logo4 {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background: url(../img/btm_sns.png) -216px 0;
+}
+
+footer .logo_box {
+  padding-top: 4rem;
+  display: flex;
+  gap: 3rem;
+  flex-direction: row;
+}
+
+footer .logo_box img {
+  width: 9.9rem;
+  height: 4.6rem;
+}
+
+footer .logo_box img + img {
+  width: 13.2rem;
+  height: 4.6rem;
+}
+
+footer address {
+  position: relative;
+}
+
+footer address p {
+  vertical-align: middle;
+  font-size: 1.2rem;
+  font-style: normal;
+}
+
+footer address h1 {
+  position: absolute;
+  width: 32rem;
+  bottom: -1rem;
+  left: 0;
+  font-size: 1.2rem;
+}

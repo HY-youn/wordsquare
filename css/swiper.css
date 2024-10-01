@@ -1,0 +1,226 @@
+.swiper{
+ width: 100%;
+ height: 30rem;
+ position: relative;
+}
+.swiper-pagination-bullet-active{
+  background:rgb(255,255,255);
+}
+
+.swiper .swiper-1{
+  width: 60rem;
+  margin: 0 auto;
+  position: relative;
+}
+.swiper .swiper-1 .swiper-text1{
+  height: 30rem;
+  display: flex ;
+  flex-direction: column;
+  justify-content: center;
+  color:#fff;
+  gap: 1rem;
+}
+
+
+.swiper .swiper-1 .swiper-text1 h2{
+  display: block;
+  font-size: 2.5rem;
+}
+.swiper .swiper-1 .swiper-text1 h1{
+  display: block;
+  font-size: 5rem;
+}
+.swiper .swiper-1 .swiper-text1 button{
+  display: block;
+  height: 3.5rem;
+  width: 20rem;
+  font-size: 1.6rem;
+  line-height: 3.5rem;
+  border-radius: 2.25rem;
+  text-align: center;
+  border: 1px solid #fff;
+  background: transparent;
+  color:#fff;
+  cursor:pointer;
+}
+.swiper .swiper-1::after{
+  content: '';
+  display: block;
+  position: absolute;
+  background-image: url(../img/graphic_main_banner_pc.png);
+  background-attachment: local;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 25em;
+  height: 25rem;
+  top: 2.5rem;
+  right: 0;
+  z-index: 0;
+
+}
+/* swiper-1 이미지완료 */
+
+
+.swiper .swiper-2{
+  width: 85rem;
+  margin: 0 auto;
+  position: relative;
+}
+.swiper .swiper-2 .swiper-text1{
+  height: 30rem;
+  display: flex ;
+  flex-direction: column;
+  justify-content: center;
+  color:#fff;
+  gap: 1rem;
+}
+
+
+.swiper .swiper-2 .swiper-text1 h2{
+  display: block;
+  font-size: 2.5rem;
+}
+.swiper .swiper-2 .swiper-text1 h1{
+  display: block;
+  font-size: 2rem;
+}
+.swiper .swiper-2 .swiper-text1 h1 span
+{
+  font-size: 5rem;
+}
+.swiper .swiper-2 .swiper-text1 button{
+  display: block;
+  height: 3.5rem;
+  width: 20rem;
+  font-size: 1.6rem;
+  line-height: 3.5rem;
+  border-radius: 2.25rem;
+  text-align: center;
+  border: 1px solid #fff;
+  background: transparent;
+  color:#fff;
+  cursor: pointer;
+}
+.swiper .swiper-2::after{
+  content: '';
+  display: block;
+  position: absolute;
+  background-image: url(../img/pic002.png);
+  background-attachment: local;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 25em;
+  height: 25rem;
+  top: 2.5rem;
+  right: 0;
+}
+
+/* swiper-2 이미지 완료 */
+
+
+.swiper .swiper-3{
+  width: 70rem;
+  margin: 0 auto;
+  position: relative;
+}
+.swiper .swiper-3 .swiper-text1{
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color:#fff;
+  gap: 1rem;
+}
+
+
+.swiper .swiper-3 .swiper-text1 h2{
+  display: block;
+  font-size: 2.5rem;
+}
+.swiper .swiper-3 .swiper-text1 h1{
+  display: block;
+  font-size: 3rem;
+}
+.swiper .swiper-3 .swiper-text1 button{
+  display: block;
+  height: 3.5rem;
+  width: 20rem;
+  font-size: 1.6rem;
+  line-height: 3.5rem;
+  border-radius: 2.25rem;
+  text-align: center;
+  border: 1px solid #fff;
+  background: transparent;
+  color:#fff;
+  cursor: pointer;
+}
+.swiper .swiper-3::after{
+  content: '';
+  display: block;
+  position: absolute;
+  background-image: url(../img/pic003.png);
+  background-attachment: local;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 25em;
+  height: 25rem;
+  top: 2.5rem;
+  right: 0;
+}
+/* swiper 3 이미지 완료 */
+
+
+.swiper .swiper-4{
+  width: 70rem;
+  margin: 0 auto;
+  position: relative;
+}
+.swiper .swiper-4 .swiper-text1{
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color:#fff;
+  gap: 1rem;
+}
+
+
+.swiper .swiper-4 .swiper-text1 h2{
+  display: block;
+  font-size: 2.5rem;
+}
+.swiper .swiper-4 .swiper-text1 h1{
+  display: block;
+  font-size: 3rem;
+}
+.swiper .swiper-4 .swiper-text1 button{
+  display: block;
+  height: 3.5rem;
+  width: 20rem;
+  font-size: 1.6rem;
+  line-height: 3.5rem;
+  border-radius: 2.25rem;
+  text-align: center;
+  border: 1px solid #fff;
+  background: transparent;
+  color:#fff;
+  cursor: pointer;
+}
+.swiper .swiper-4::after{
+  content: '';
+  display: block;
+  position: absolute;
+  background-image: url(../img/pic005.png);
+  background-attachment: local;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 25em;
+  height: 25rem;
+  top: 2.5rem;
+  right: 0;
+}
+/* swiper 4 이미지 완료 */

@@ -1,0 +1,20 @@
+{
+  "name": "npm_package",
+  "version": "1.0.0",
+  "description": "use for myportfolio only",
+  "main": "index.js",
+  "scripts": {
+    "sass:build": "sass --no-source-map scss:css",
+    "sass:watch": "sass --no-source-map --watch scss:css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.8",
+    "bootstrap": "^5.3.3",
+    "gsap": "^3.12.5",
+    "sass": "^1.79.4",
+    "scss": "^0.2.4",
+    "swiper": "^11.1.14"
+  }
+}

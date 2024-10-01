@@ -1,0 +1,23 @@
+@charset 'UTF-8';
+
+// 전체 초기화를 시켜줍니다
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+li {
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-show {
+  height: 15rem !important;
+  z-index: 11;
+}
