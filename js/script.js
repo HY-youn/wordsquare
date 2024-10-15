@@ -1,50 +1,53 @@
 
-const navBar = document.querySelector('.nav-navbar');
-const navbarDepth = document.querySelector('.nav-navbar-depth1menu');
+// const navBar = document.querySelector('.nav-navbar');
+// const navbarDepth = document.querySelector('.nav-navbar-depth1menu');
 
-navBar.addEventListener('mouseover', ()=>{
-  if(navBar.classList.contains('nav-show')){
-    navbarDepth.classList.remove('nav-show');
-  }
-  else{
-    navbarDepth.classList.add('nav-show');
-  }
-  
-});
+// navBar.addEventListener('mouseenter', ()=>{
+//   if(!navBar.classList.contains('nav-show')){
+//     navbarDepth.classList.add('nav-show');
+//   }
+// });
 
-navBar.addEventListener('mouseout', ()=>{
- navbarDepth.classList.remove('nav-show');
-})
+// navBar.addEventListener('mouseleave', ()=>{
+//     navbarDepth.classList.remove('nav-show');
+//   }
+// )
 
-const testItems = document.querySelectorAll('.sec-4 .test-grid .grid-item');
-const testTexts = document.querySelectorAll('.sec-4 .test-grid .grid-item p');
-const testBtns = document.querySelectorAll('section.sec-4 .test-grid .grid-item .test-content button a');
+const testItems = document.querySelectorAll('.test-grid .grid-item');
+
+testItems.forEach((testItem) => {
+  testItem.addEventListener('mouseenter', () => {
+    // test-content-text 요소를 선택
+    const testContentText = testItem.querySelector('.test-content-text');
+    const testContentImg = testItem.querySelector('.test-content-img');
+    // 모든 p 태그에 'on' 클래스 추가
+    const paragraphs = testContentText.querySelectorAll('.p-black');
+    const paragraphe = testContentText.querySelectorAll('.p-color');
+    const images = testContentImg.querySelector('button a');
+    paragraphs.forEach((p) => {
+      p.classList.add('on');
+    });
+    paragraphe.forEach((e) => {
+      e.classList.add('coloron');
+    });
+    images.classList.add('btnon');
+    });
 
 
-testItems.forEach((testItem) =>{
-  testItem.addEventListener('mouseenter', ()=>{
-    testItem.classList.add('on');
-    testItem.stopPropagation();
-    testTexts.forEach((testText)=>{
-      testText.classList.add('on');
-      testText.stopPropagation();
-    })
-    testBtns.forEach((testBtn)=>{
-      testBtn.classList.add('btnon');
-      testBtn.stopPropagation();
-    }
-    )
-  })
-  testItem.addEventListener('mouseleave', ()=>{
-    testItem.classList.remove('on');
-    testTexts.forEach((testText)=>{
-      testText.classList.remove('on');
-      testText.stopPropagation();
-    })
-    testBtns.forEach((testBtn)=>{
-      testBtn.classList.remove('btnon');
-      testBtn.stopPropagation();
-    }
-    )
-  }) 
+  testItem.addEventListener('mouseleave', () => {
+    // test-content-text 요소를 선택
+    const testContentText = testItem.querySelector('.test-content-text');
+    const testContentImg = testItem.querySelector('.test-content-img');
+    // 모든 p 태그에 'on' 클래스 추가
+    const paragraphs = testContentText.querySelectorAll('.p-black');
+    const paragraphe = testContentText.querySelectorAll('.p-color');
+    const images = testContentImg.querySelector('button a');
+    paragraphs.forEach((p) => {
+      p.classList.remove('on');
+    });
+    paragraphe.forEach((e) => {
+      e.classList.remove('coloron');
+    });
+    images.classList.remove('btnon');
+    });
 });

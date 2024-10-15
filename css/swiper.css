@@ -1,7 +1,7 @@
 .swiper{
+
  width: 100%;
- height: 30rem;
- position: relative;
+ height: 27rem;
 }
 .swiper-pagination-bullet-active{
   background:rgb(255,255,255);
@@ -56,7 +56,7 @@
   height: 25rem;
   top: 2.5rem;
   right: 0;
-  z-index: 0;
+  z-index: 1;
 
 }
 /* swiper-1 이미지완료 */
